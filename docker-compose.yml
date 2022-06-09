@@ -1,6 +1,6 @@
 version: "3.8"
 
-# Entorno de desarrollo para NestJS, usar en caso no se pueda instalar Nodejs en local
+# Environment to generate project with openapi generator (+40 languages and technologies)
 
 services:
   app:
