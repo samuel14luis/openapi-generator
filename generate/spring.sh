@@ -7,6 +7,7 @@ java -jar openapi-generator-cli.jar generate \
     --library spring-boot \
     -i /local/petstore.yaml \
     -o /local/out/java \
+    \
     -p groupId=com.example \
     -p artifactId=petstore \
     -p artifactVersion=0.0.1-SNAPSHOT \
@@ -16,7 +17,7 @@ java -jar openapi-generator-cli.jar generate \
     -p apiPackage=com.example.petstore.api \
     -p modelPackage=com.example.petstore.model \
     \
-    -p sourceFolder=src/main/gen \
+    -p sourceFolder=src/main/java \
     \
     -p dateLibrary=java11 \
     -p java11=true
