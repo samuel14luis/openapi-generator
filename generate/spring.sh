@@ -19,5 +19,8 @@ java -jar openapi-generator-cli.jar generate \
     \
     -p sourceFolder=src/main/java \
     \
-    -p dateLibrary=java11 \
-    -p java11=true
+    -p dateLibrary=java8 \
+    -p java11=true \
+    \
+    -p reactive=true \
+    -p useSpringController=true
